@@ -1,1 +1,22 @@
-
+export const CATALOG=[
+{id:'mairie',image:new URL('../assets/mairie.png',import.meta.url).href,name:'Mairie',category:'Services',price:8000,w:3,h:3,emoji:'🏛️',color:'#e7c98d'},
+{id:'ecole',image:new URL('../assets/ecole.png',import.meta.url).href,name:'École',category:'Éducation',price:7000,w:3,h:2,emoji:'🏫',color:'#f4c76c'},
+{id:'college',image:new URL('../assets/college.png',import.meta.url).href,name:'Collège',category:'Éducation',price:9000,w:4,h:3,emoji:'🏫',color:'#e8a66e'},
+{id:'lycee',image:new URL('../assets/lycee.png',import.meta.url).href,name:'Lycée',category:'Éducation',price:11000,w:4,h:3,emoji:'🎓',color:'#d6a2e8'},
+{id:'hopital',image:new URL('../assets/hopital.png',import.meta.url).href,name:'Hôpital',category:'Services',price:18000,w:4,h:3,emoji:'🏥',color:'#e9a5a5'},
+{id:'pompiers',image:new URL('../assets/pompiers.png',import.meta.url).href,name:'Pompiers',category:'Services',price:10000,w:3,h:3,emoji:'🚒',color:'#e98c72'},
+{id:'police',image:new URL('../assets/police.png',import.meta.url).href,name:'Commissariat',category:'Services',price:9000,w:3,h:3,emoji:'🚓',color:'#8aaed1'},
+{id:'pharmacie',image:new URL('../assets/pharmacie.png',import.meta.url).href,name:'Pharmacie',category:'Services',price:5000,w:2,h:2,emoji:'💊',color:'#9ccba5'},
+{id:'boulangerie',image:new URL('../assets/boulangerie.png',import.meta.url).href,name:'Boulangerie',category:'Commerces',price:4000,w:2,h:2,emoji:'🥐',color:'#e7bb77'},
+{id:'coiffeur',image:new URL('../assets/coiffeur.png',import.meta.url).href,name:'Coiffeur',category:'Commerces',price:4000,w:2,h:2,emoji:'✂️',color:'#e5a8bc'},
+{id:'supermarche',image:new URL('../assets/supermarche.png',import.meta.url).href,name:'Supermarché',category:'Commerces',price:7000,w:4,h:3,emoji:'🛒',color:'#9ec8a3'},
+{id:'restaurant',image:new URL('../assets/restaurant.png',import.meta.url).href,name:'Restaurant',category:'Commerces',price:5000,w:2,h:2,emoji:'🍽️',color:'#e5a17c'},
+{id:'patinoire',image:new URL('../assets/patinoire.png',import.meta.url).href,name:'Patinoire',category:'Loisirs',price:16000,w:5,h:4,emoji:'⛸️',color:'#a8d9e8'},
+{id:'stade',image:new URL('../assets/stade.png',import.meta.url).href,name:'Stade',category:'Loisirs',price:14000,w:5,h:4,emoji:'⚽',color:'#8fc18b'},
+{id:'piscine',image:new URL('../assets/piscine.png',import.meta.url).href,name:'Piscine',category:'Loisirs',price:15000,w:4,h:3,emoji:'🏊',color:'#8ed2dc'},
+{id:'parc',image:new URL('../assets/parc.png',import.meta.url).href,name:'Parc',category:'Nature',price:5000,w:3,h:3,emoji:'🌳',color:'#a5ce91'},
+{id:'bibliotheque',name:'Bibliothèque',category:'Services',price:6000,w:3,h:2,emoji:'📚',color:'#c6a7df'},
+{id:'gare',name:'Gare',category:'Transports',price:12000,w:4,h:2,emoji:'🚉',color:'#b5c3d8'},
+{id:'parking',name:'Parking',category:'Transports',price:2000,w:3,h:2,emoji:'🅿️',color:'#b8bec4'},
+{id:'banc',name:'Banc',category:'Mobilier',price:500,w:1,h:1,emoji:'🪑',color:'#c99b70'},
+{id:'arbre',name:'Arbre',category:'Mobilier',price:200,w:1,h:1,emoji:'🌲',color:'#86bd82'}];
